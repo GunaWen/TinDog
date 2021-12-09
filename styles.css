@@ -1,0 +1,180 @@
+#title {
+  background-color: #ff4c68;
+  z-index: 1;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #FEFEFE;
+  padding-bottom: 1.5rem;
+}
+
+h2 {
+  font-family: "montserrat";
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 2;
+  color: #FFF;
+  padding: 0 15%;
+}
+
+li {
+  font-size: 1.5rem;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.title {
+  padding-bottom: 300px;
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0 2rem;
+}
+
+.iphone6 {
+  position: absolute;
+  transform: rotate(25deg);
+  right: 25%;
+}
+
+/* Icons */
+.fas {
+  color: #EF8172;
+  margin-bottom: 20px;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+h3 {
+  font-family: "montserrat-bold";
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  /* bottom:300px; */
+  z-index: 2;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #E36869;
+}
+
+.testimonial-pic {
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* Press */
+#press {
+  text-align: center;
+  background-color: #E36869;
+}
+
+.press-images {
+  width: 15%;
+  margin: 100px 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing */
+.price {
+  color: black;
+  font-size: 2rem;
+}
+
+.card {
+  text-align: center;
+}
+
+.pricing-header {
+  font-size: 3rem;
+  color: black;
+}
+
+#pricing {
+  padding: 0 100px;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone6 {
+    position: static;
+    transform: rotate(0);
+    margin-top: 100px;
+  }
+}
+
+#cta {
+  height: 350px;
+  background-color: #ff4c68;
+}
+
+.ctatitle{
+  font-family: "montserrat";
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin: 0 35%;
+  padding: 100px 0 50px;
+}
+
+.downloadbtn {
+  width: 310px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.logodiv{
+  margin-top: 50px;
+  width:180px;
+}
+
+.logo{
+  color:black;
+}
+
+p{
+text-align: center;
+}
